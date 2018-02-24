@@ -1,0 +1,76 @@
+body{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+.lateral{
+  background:#f8ffff;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 250px;
+}
+ .foto{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 1px solid white;
+
+ }
+ .navigation{
+   /*color: #99e8ee;*/
+   position: absolute;
+   bottom: 1em;
+
+ }
+
+ .menu li{
+
+   list-style: none;
+   padding: 0;
+ }
+ .menus {
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 3em;
+ }
+ .boton{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 770px;
+  padding: 1em;
+ }
+
+ .btn{
+   vertical-align: top;
+   width: 160px;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   color: white;
+   font-size: 17px;
+   line-height: 21px;
+   background: #00d5ea;
+   border-radius: 4px;
+   padding: 12px 0;
+   font-weight: 500px;
+   border-bottom: 2px solid #93b5ca;
+   margin: 0 5px;
+   position: relative;
+
+ }
+
+ .event{
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 300px;
+  position:relative;
+ }
+.description{
+  display: flex;
+  /*justify-content: space-between;*/
+}
